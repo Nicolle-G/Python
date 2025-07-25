@@ -1,0 +1,11 @@
+# Entorno virtual
+venv/
+env/
+
+# Archivos compilados
+__pycache__/
+*.pyc
+
+# Cachés de pruebas y análisis
+.pytest_cache/
+.pytype/
