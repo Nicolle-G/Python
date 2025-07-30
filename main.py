@@ -1,5 +1,5 @@
 def decorators(func):
-    def result(word: str) -> str:
+    def result(word: str) -> bool:
         if func(word):
             print("The word is Palindrome")
         else:
@@ -8,7 +8,7 @@ def decorators(func):
 
 
 @decorators
-def is_palindrome(word: str) -> str:
+def is_palindrome(word: str) -> bool:
    invest = ""
    for i in reversed(word):
         invest += i
@@ -18,6 +18,4 @@ def is_palindrome(word: str) -> str:
 def main():
     word = input("Give me a word:\n")
     is_palindrome(word)
-
-
 
