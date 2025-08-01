@@ -2,8 +2,10 @@ def decorators(func):
     def result(word: str) -> bool:
         if func(word):
             print("The word is Palindrome")
+            return True
         else:
             print("The word Not is a Palindrome")
+            return False
     return result
 
 

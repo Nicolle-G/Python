@@ -1,0 +1,8 @@
+### palindrome
+POST http://127.0.0.1:5000/palindrome
+Content-Type: application/json
+
+{
+    "word": "oño"
+}
+

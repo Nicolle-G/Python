@@ -2,3 +2,4 @@ pylint==3.3.7
 pytest==8.4.1
 pytype==2024.10.11
 Quart==0.20.0
+pytest-asyncio==1.1.0
