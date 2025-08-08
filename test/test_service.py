@@ -1,5 +1,5 @@
 import pytest
-from service import app
+from proyecto.service import app
 
 @pytest.mark.asyncio
 async def test_check_palindrome():

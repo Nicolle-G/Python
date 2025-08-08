@@ -1,5 +1,5 @@
 import pytest
-from main import is_palindrome
+from proyecto.main import is_palindrome
 
 @pytest.mark.parametrize(
     "word, expected",

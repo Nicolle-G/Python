@@ -1,5 +1,5 @@
 from quart import Quart, request, jsonify
-from main import is_palindrome
+from proyecto.main import is_palindrome
 
 app = Quart(__name__)
 
